@@ -7,3 +7,8 @@ venv/
 
 # DJANGO DEFAULT FILES
 db.sqlite3
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
