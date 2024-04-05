@@ -44,6 +44,8 @@ SITE_ID = 1
 
 ROOT_URLCONF = 'core.urls'
 
+AUTH_USER_MODEL = 'myapp.CustomUser'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -59,8 +61,6 @@ TEMPLATES = [
         },
     },
 ]
-
-WSGI_APPLICATION = 'core.wsgi.application'
 
 AUTH_PASSWORD_VALIDATORS = [
     {

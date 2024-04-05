@@ -1,6 +1,7 @@
 from .base import *
 
-DEBUG = os.environ.get('DEGUB')
+DEBUG = bool(os.environ.get('DEGUB'))
+# DEBUG = True
 PRODUCTION = os.environ.get('PRODUCTION')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 ALLOWED_HOSTS = ['*']
